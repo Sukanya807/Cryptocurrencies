@@ -11,3 +11,11 @@ The final analysis includes the following aspects:
 - Reducing Data Dimensions using PCA
 - Clustering cryptocurrencies using K-Means
 - Visualizing cryptocurrencies results
+
+## Resources
+
+Data Source: crypto_data.csv
+Software: Python 3.7, Jupyter Notebook
+Topic: Unsupervised Machine Learning
+
+
