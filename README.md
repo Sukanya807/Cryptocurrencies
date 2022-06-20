@@ -22,6 +22,12 @@ The final analysis includes the following aspects:
 
 The original dataframe contains 1,252 rows. The dataframe has been preprocessed by dropping rows with one or more null values and by filtering on the basis of currently traded cryptocurrencies and coins mined. Following the preprocessing and cleaning, there are in total 532 tradable cryptocurrencies.
 
+In the next step, Principal Component Analysis (PCA) has been applied to reduce the number of dimensions by transforming a large set of variables into a smaller one that combines most of the information in the original large set. The data has been standardized using the **StandardScaler** library and then PCA has been applied which reduced the dimensions to three principal components.
+
+Next, an elbow curve has been generated using the **K-Means algorithm** and **hvplot** to find the best value for K. Subsequently, K-Means algorithm has been used to predict the K clusters for the cryptocurrencies data.
+
+![](Images/elbow_curve.png)
+
 
 
 
