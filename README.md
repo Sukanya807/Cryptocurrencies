@@ -42,6 +42,10 @@ Finally, the "TotalCoinsMined" and the "TotalCoinSupply" columns were scaled aga
 
 ![](Images/scatter_plot_df.png)
 
+## Summary
+
+There are 532 cryptocurrencies on the trading market. Also, according to the 3-D plot and the scatterplot, it is evident that majority of the cryptocurrencies can be grouped into two classes.
+
 
 
 
