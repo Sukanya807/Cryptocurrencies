@@ -16,7 +16,7 @@ The final analysis includes the following aspects:
 
 - Data Source: crypto_data.csv
 - Software: Python 3.7, Jupyter Notebook
-- Topic: Unsupervised Machine Learning
+- Libraries - scikit-learn, pandas, hvplot, plotly
 
 ## Results
 
@@ -44,7 +44,7 @@ Finally, the "TotalCoinsMined" and the "TotalCoinSupply" columns were scaled aga
 
 ## Summary
 
-There are 532 cryptocurrencies on the trading market. Also, according to the 3-D plot and the scatterplot, it is evident that majority of the cryptocurrencies can be grouped into two classes.
+There are 532 cryptocurrencies on the trading market. Also, it is evident that majority of the cryptocurrencies can be grouped into two classes (class 0 and 2 as per the 3-D and scatterplots).
 
 
 
