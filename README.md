@@ -14,8 +14,10 @@ The final analysis includes the following aspects:
 
 ## Resources
 
-Data Source: crypto_data.csv
-Software: Python 3.7, Jupyter Notebook
-Topic: Unsupervised Machine Learning
+- Data Source: crypto_data.csv
+- Software: Python 3.7, Jupyter Notebook
+- Topic: Unsupervised Machine Learning
+
+
 
 
