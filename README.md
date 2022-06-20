@@ -30,13 +30,17 @@ Next, an elbow curve has been generated using the **K-Means algorithm** and **hv
 
 From the elbow curve, it can be determined that the optimal number of clusters in this case is 4 (k=4). This information has been used to specify the number of clusters when initializing the K-Means model.
 
-In the visualization section, a 3-D graph has been generated using **Plotly Express** to visualize the distinct groups that correspond to the three principal components and the data has also been generated in the form of a table using **hvTable**.
+In the visualization section, a 3-D graph has been generated using **Plotly Express** to visualize the distinct groups that correspond to the three principal components and the data has also been generated in the form of a table using **hvTable**. The hvTable displays all of the currently tradable cryptocurrencies.
 
 ![](Images/3d_plot.png)
 
 ### hvTable
 
 ![](Images/hvtable1.png)
+
+Finally, the "TotalCoinsMined" and the "TotalCoinSupply" columns were scaled again using the **MinMaxScaler** and a scatter plot has been created for the data using **hvplot**.
+
+![](Images/scatter_plot_df.png)
 
 
 
