@@ -18,6 +18,10 @@ The final analysis includes the following aspects:
 - Software: Python 3.7, Jupyter Notebook
 - Topic: Unsupervised Machine Learning
 
+## Results
+
+The original dataframe contains 1,252 rows. The dataframe has been preprocessed by dropping rows with one or more null values and by filtering on the basis of currently traded cryptocurrencies and coins mined. Following the preprocessing and cleaning, there are in total 532 tradable cryptocurrencies.
+
 
 
 
